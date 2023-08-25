@@ -62,23 +62,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (rtn);
 }
-
-/*int main()
- {
- 	int x;
- 	int b = 123;
-  	char s[] = "asd";
- 	char d = 'p';
- 	unsigned int xs = 32;
- 	unsigned int xc = 42;
- 	unsigned int as = 1453;
- 	char f[] = "30";
- 	x = printf("%d, %s, %c, %x, %X, %u, %%, %p\n", b, s, d, xs, xc, as, f);
-
- 	x = ft_printf("%d, %s, %c, %x, %X, %u, %%, %p\n", b, s, d, xs, xc, as, f);
- 	
- }*/
- int main()
- {
-    ft_printf("%X",42);
- }
